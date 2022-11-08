@@ -1,0 +1,112 @@
+/* custom property */
+:root {
+	--global-color-1: #800000;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+	width: 800px;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header h2 {
+	font-size: 175%;
+	color: var(--global-color-1);
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+header img {
+	float: left;
+}
+.shadow {
+	text-shadow: 2px 2px 2px var(--global-color-1);
+}
+/* the styles for the main content */
+main {
+	clear: left;
+}
+section{
+	width: 525px;
+	padding-bottom: 20px;
+	float: right;
+}
+
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+	/*padding: .3em 0;*/
+}
+
+section h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+section ul {
+	 padding: 0 0 .25em 1.25em; 
+}
+section li {
+	 padding-bottom: .35em;
+}
+
+aside{
+	width: 215px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+}
+
+aside h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+
+article{
+	padding: .5em 0;
+	border-top: 2px solid var(--global-color-1);
+	border-bottom: 2px solid var(--global-color-1);
+}
+
+article img{
+	float: right;
+	margin: 1%;
+	border: 1px solid black;
+}
+
+article h2{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+/* the styles for the footer */
+footer p {
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
+}
